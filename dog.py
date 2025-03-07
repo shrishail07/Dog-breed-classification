@@ -6,7 +6,7 @@ from PIL import Image
 # Load the trained model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('dog-breed-classification.ipynb')
+    return tf.keras.models.load_model('dog_breed_classifier.h5')
 
 model = load_model()
 
