@@ -1,1 +1,1 @@
-model.save('dog_breed_classifier.h5')
+model = tf.keras.models.load_model('/kaggle/input/your-dataset-folder/dog_breed_classifier.h5')
